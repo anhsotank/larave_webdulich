@@ -907,8 +907,7 @@
                     <div class="col-md-4 col-xs-12 lst-tour-item">
                         <div class="w100 fl bx-wap-pr-item">
                             <div class="clearfix box-wap-imgpr">
-                                <a
-                                    href="https://vietnamtravel.net.vn/vi/chi-tiet-san-pham/470-tour-hot-nhat-he-2023-quy-nhon-phu-yen-xu-nau-dep-nhat-viet-nam.html">
+                                <a href="{{route('tour.show', [$cate->id])}}">
                                     <img src="{{asset('uploads/categories/' . $cate->image)}}" class="img-default"
                                         alt="tour" style="margin-bottom: 6px;">
                                     <img src="{{asset('uploads/categories/' . $cate->image)}}" class="img-event-giang-sinh">
@@ -917,8 +916,7 @@
                             </div>
 
                             <div class="clear"></div>
-                            <h4><a
-                                    href="https://vietnamtravel.net.vn/vi/chi-tiet-san-pham/470-tour-hot-nhat-he-2023-quy-nhon-phu-yen-xu-nau-dep-nhat-viet-nam.html">
+                            <h4><a href="{{route('tour.index')}}">
                                     {{$cate->title}}</a></h4>
                             <div class="clear"></div>
                             <div class="group-calendar w100 fl">
@@ -943,8 +941,7 @@
                                 nhóm khách 5 người trở lên</div>
                             <div class="group-book w100 fl">
                                 <span class="price-sell"> {{$cate->price}} VNĐ </span>
-                                <a href="https://vietnamtravel.net.vn/vi/chi-tiet-san-pham/470-tour-hot-nhat-he-2023-quy-nhon-phu-yen-xu-nau-dep-nhat-viet-nam.html"
-                                    class="link-book btn_view_tour0">Xem chi tiết</a>
+                                <a href="" class="link-book btn_view_tour0">Xem chi tiết</a>
                             </div>
                         </div>
 
